@@ -32,7 +32,8 @@ public class SortByWeight {
 //    Map<Integer,Integer> sortedMap = new TreeMap<Integer,Integer>(hash_map);
     
     for(Map.Entry<Integer,Integer> entry: hash_map.entrySet()) {
-    	System.out.print("( "+ entry.getKey()+ " , "+ entry.getValue() +"),");
+    	System.out.print("("+ entry.getKey()+ " , "+ entry.getValue() +") ");
+    	
     }
     
 		/*
